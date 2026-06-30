@@ -1,9 +1,19 @@
+import { useRef, useEffect } from 'react';
 import heroVideo from '../../assets/Man_leads_camels_across_dune.mp4';
 
 export default function HeroVideoBackground() {
+  const videoRef = useRef<HTMLVideoElement>(null);
+
+  useEffect(() => {
+    if (videoRef.current) {
+      videoRef.current.playbackRate = 0.5;
+    }
+  }, []);
+
   return (
     <div className="absolute inset-0 w-full h-full z-0 overflow-hidden">
       <video
+        ref={videoRef}
         autoPlay
         loop
         muted
@@ -17,10 +27,10 @@ export default function HeroVideoBackground() {
       <div
         className="absolute inset-0 z-[1]"
         style={{
-          background: 'rgba(255, 255, 255, 0.05)',
-          backdropFilter: 'blur(8px)',
-          WebkitBackdropFilter: 'blur(8px)',
-          borderBottom: '1px solid rgba(255, 255, 255, 0.1)',
+          background: 'rgba(255, 255, 255, 0.035)',
+          backdropFilter: 'blur(5.5px)',
+          WebkitBackdropFilter: 'blur(5.5px)',
+          borderBottom: '1px solid rgba(255, 255, 255, 0.07)',
         }}
       />
     </div>
