@@ -6,7 +6,7 @@ export default function TestimonialsSection() {
     <section className="bg-base-cream/50 py-24 px-6 overflow-hidden">
       <div className="container mx-auto max-w-7xl">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-poppins font-semibold text-gray-900 mb-4">
+          <h2 className="text-4xl md:text-5xl font-poppins font-semibold text-white mb-4">
             What Our <span className="font-source-serif italic text-brand-orange">Guests</span> Say
           </h2>
           <div className="w-24 h-1 bg-brand-gold mx-auto rounded-full" />

@@ -13,7 +13,7 @@ export default function MenuPreviewCarousel() {
       
       <div className="container mx-auto max-w-7xl relative z-10">
         <div className="text-center mb-12">
-          <h2 className="text-4xl md:text-5xl font-poppins font-semibold text-gray-900 mb-4">
+          <h2 className="text-4xl md:text-5xl font-poppins font-semibold text-white mb-4">
             Our <span className="font-source-serif italic text-brand-orange">Menu</span>
           </h2>
           <div className="w-24 h-1 bg-brand-gold mx-auto rounded-full" />
@@ -24,8 +24,8 @@ export default function MenuPreviewCarousel() {
           
           <div className="flex justify-between items-end mb-8">
             <div>
-              <h3 className="text-2xl font-source-serif font-bold text-gray-900">Signature Dishes</h3>
-              <p className="text-gray-900 font-medium mt-1">A glimpse into our authentic offerings</p>
+              <h3 className="text-2xl font-source-serif font-bold text-white">Signature Dishes</h3>
+              <p className="text-white font-medium mt-1">A glimpse into our authentic offerings</p>
             </div>
             <a 
               href="/order" 

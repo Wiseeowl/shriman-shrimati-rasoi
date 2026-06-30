@@ -14,9 +14,9 @@ export default function GallerySection() {
             <h2 className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-5xl md:text-8xl lg:text-[10rem] font-source-serif font-bold text-white/[0.02] whitespace-nowrap z-0 pointer-events-none uppercase">
               Through Our Eyes
             </h2>
-            <h3 className="relative z-10 font-poppins text-xs tracking-[0.2em] uppercase text-gray-500 mb-2">A Glimpse Inside</h3>
+            <h3 className="relative z-10 font-poppins text-sm tracking-[0.2em] uppercase text-white mb-2">A Glimpse Inside</h3>
             <h2 className="relative z-10 text-4xl md:text-5xl font-source-serif text-white mb-4">
-              <span className="italic text-brand-maroon">Shriman Shrimati's</span> Eyes
+              <span className="italic text-white">Shriman Shrimati's</span> Eyes
             </h2>
           </div>
         </ScrollReveal>
